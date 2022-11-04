@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    margin: 50px 30px;
+}
+.about{
+    margin: 0 10px;
+    border-bottom: 0.8px solid white;
+}
+ul{
+    margin: 40px;
+}
+ol{
+    margin: 40px;
+}
+.mood{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.list + h1{
+    text-align: center;
+    width: 100%;
+}
+.happy{
+    width: 45%;
+    height: 400px;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(./7069F0BB-A9AB-4932-84F508BBC0136458.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.happy:hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.151)), url(./7069F0BB-A9AB-4932-84F508BBC0136458.JPG);
+}
+.happy p{
+    padding: 5px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+.sad{
+    margin-bottom: 20px;
+    width: 45%;
+    height: 400px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(./artworks-TBgvG0Qr2IwG6yw4-3zu0Pw-t500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sad:hover{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.267)), url(./artworks-TBgvG0Qr2IwG6yw4-3zu0Pw-t500x500.jpg);
+}
+.sad p{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
